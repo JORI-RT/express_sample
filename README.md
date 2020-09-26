@@ -7,12 +7,18 @@
 npm i --save express
 npm i --save-dev @types/express // typescriptはトランスパイルするので開発のみ使用
 npm i --save-dev typescript
+npm i -D jest @types/jest ts-jest
 ```
 トランスパイルの設定を作成
 ```
 node_modules\.bin\tsc --init
 
 ```
+jestの設定
+```
+npx jest --init
+```
+npx jestでテスト実行
 
 ## 調査
 プロパティファイルとかの構成をどうすればよいか
