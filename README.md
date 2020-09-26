@@ -23,5 +23,8 @@ npx jestでテスト実行
 ## 調査
 プロパティファイルとかの構成をどうすればよいか
 
+## testコードの`Cannot find name 'describe'.`を回避する方法
+もう一個したでVSCODEで開き直す　ー＞　？？
+
 ## link
 [node soap公式](https://github.com/vpulim/node-soap#soapcreateclienturl-options-callback---create-a-new-soap-client-from-a-wsdl-url-also-supports-a-local-filesystem-path)
