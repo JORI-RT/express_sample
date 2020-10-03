@@ -1,7 +1,7 @@
-import { IExistCheckService } from "./IExistCheckService";
+import { IExistCheckService } from './IExistCheckService';
 
 export class STExistCheckService implements IExistCheckService {
-    exist(id: string) {
-        return true;
-    }
+  exist(id: string) {
+    return true;
+  }
 }

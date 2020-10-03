@@ -18,6 +18,6 @@ typescript/nodejsの技術調査用REPO
 ## web link
 * [node soap公式](https://github.com/vpulim/node-soap#soapcreateclienturl-options-callback---create-a-new-soap-client-from-a-wsdl-url-also-supports-a-local-filesystem-path)
 * [pg](https://symfoware.blog.fc2.com/blog-entry-2114.html)
-* [template](/aaa)
-* [template](/aaa)
+* [mock-http-server](https://www.npmjs.com/package/mock-http-server)
+* [deep dive typescript](https://typescript-jp.gitbook.io/deep-dive/nodejs))
 * [template](/aaa)
