@@ -8,7 +8,8 @@
         "removeComments": true,
         "types": [
             "jest",
-            "node"
+            "node",
+            "@types/express"
         ]
     },
     "include": [

@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "start": "npm run build:live",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/async.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "pg": "^8.3.3",
@@ -20,7 +23,10 @@
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.2",
     "jest": "^26.4.2",
+    "mock-http-server": "^1.4.2",
+    "nodemon": "^2.0.4",
     "ts-jest": "^26.4.0",
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   }
 }
